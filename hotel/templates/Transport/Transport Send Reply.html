@@ -1,0 +1,42 @@
+{% extends "Transport/trndashboard.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/trn_sending_reply">
+<div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                    <h4 class="card-title "><b>Send Reply</b></h4>
+{#                  <p class="card-category"> Here is a subtitle for this table</p>#}
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+
+
+    <tr>
+      <td>Complaint</td>
+      <td><label for="textarea"></label>
+      <textarea name="textarea" id="textarea" cols="45" class="form-control"rows="5">{{ data['complaints'] }}</textarea></td>
+    </tr>
+    <tr>
+      <td>Reply</td>
+      <td><label for="textarea2"></label>
+      <textarea name="textarea2" id="textarea2" cols="45" rows="5" class="form-control"></textarea></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" name="button" id="button" value="Send" class="btn-success" /></td>
+    </tr>
+  </table>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+</form>
+{% endblock %}

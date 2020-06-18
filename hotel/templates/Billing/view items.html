@@ -1,0 +1,47 @@
+{% extends "Billing/billdashboard.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+<div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                    <h4 class="card-title "><b>Food Items</b></h4>
+{#                  <p class="card-category"> Here is a subtitle for this table</p>#}
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+    <tr>
+      <td>Sl No.</td>
+      <td>Food Items</td>
+      <td>Quantity</td>
+      <td>Price</td>
+    </tr>
+      {% for i in values %}
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td>&nbsp;{{ i["food_name"] }}</td>
+      <td>&nbsp;{{ i["quantity"] }}</td>
+      <td>&nbsp;{{ i["price"] }}</td>
+    </tr>
+      {% endfor %}
+{#    <tr>#}
+{#      <td colspan="4">#}
+{#        <div align="center">#}
+{#          <input type="submit" name="button" id="button" value="Completed" />#}
+{#        </div>#}
+{#      </td>#}
+{#    </tr>#}
+  </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+</form>
+{% endblock %}
+

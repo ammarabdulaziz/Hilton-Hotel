@@ -1,0 +1,28 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+<form action="/adm_edit_add_table" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table class="table table-hover">
+    <tr>
+      <td>Table Number</td>
+      <td>
+      <input type="text" name="textfield" class="form-control" id="textfield" required value="{{ data["table_num"] }}"/></td>
+    </tr>
+    <tr>
+      <td>Structure</td>
+      <td>
+      <input type="file" name="filefield" class="form-control" id="filefield" value="{{ data["picture"] }}"/></td>
+    </tr>
+    <tr>
+      <td>Price</td>
+      <td>
+      <input type="text" name="textfield1" class="form-control" id="textfield1" required value="{{ data["charge"] }}"/></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input type="submit" name="button" id="button" class="btn btn-success" value="Add" />
+      </div></td>
+    </tr>
+  </table>
+</form>
+
+{% endblock %}

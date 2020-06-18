@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<Payload adobeCode="{PHSP-21.1.3-64-ADBEADBEADBEADBEADBEA}">
+		<Data key="AMTConfigPath">C:\Program Files\Adobe\Adobe Photoshop 2020\AMT\application.xml</Data><Data key="APPLICATION_CUSTOMIZATION_DATA">SuppressSerialWF</Data><Data key="BridgeTalkCode">/adobe/bridgetalk/photoshop-140.064</Data><Data key="DefaultDriverPayload">{PHSP-21.1.3-64-ADBEADBEADBEADBEADBEA}</Data><Data key="InstallDate">1590963083</Data><Data key="ProductVersion">21.1.3</Data><Data key="SAPCode">PHSP</Data><Data key="defaultAdobeCode">{PHSP-21.1.3-64-ADBEADBEADBEADBEADBEA}</Data><Data key="driverAMTConfigPath">C:\Program Files\Adobe\Adobe Photoshop 2020\AMT\application.xml</Data><Data key="driverLEID">V7{}Photoshop-21-Win-GM</Data><Data key="installedLanguages">en_US</Data></Payload>
+	<Other adobeCode="/adobe/bridgetalk/photoshop-140.064">
+		<Data key="Specifier">photoshop-140.064</Data>
+		<Data key="ExecutableBasename">Photoshop</Data>
+		<Data key="BundleIdentifier">com.adobe.Photoshop</Data>
+		<Data key="DisplayName">Adobe Photoshop 2020</Data>
+		<Data key="BridgeTalkVersion">2</Data>
+		<Data key="SupportsESTK">true</Data>
+	</Other>
+	<Other adobeCode="/adobe/bridgetalk/groups">
+		<Data key="Group180">/adobe/bridgetalk/groups/cs/140/bridge-10.*</Data>
+		<Data key="Group181">/adobe/bridgetalk/groups/cs/140/photoshop-140.*</Data>
+		<Data key="Group182">/adobe/bridgetalk/groups/cs/140/estoolkit-4.0</Data>
+	</Other>
+</Configuration>

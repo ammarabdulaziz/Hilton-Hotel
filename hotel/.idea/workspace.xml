@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5be4ecd2-9827-4fcd-92af-4d19fa6df605" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/hotel$hotel.coverage" NAME="hotel Coverage Results" MODIFIED="1591176269374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="hotel" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="hotel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4305">
+              <caret line="207" column="17" lean-forward="false" selection-start-line="207" selection-start-column="13" selection-end-line="207" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#72#0" expanded="true" />
+                <marker date="1591166789693" expanded="true" signature="433:492" ph="select * fro... login" />
+                <marker date="1591166789693" expanded="true" signature="720:797" ph="select * fro... login" />
+                <marker date="1591166789693" expanded="true" signature="1893:1915" ph="select * fro... category" />
+                <marker date="1591166789693" expanded="true" signature="2332:2474" ph="insert into food_items... " />
+                <marker date="1591166789693" expanded="true" signature="2786:2859" ph="insert into service... " />
+                <marker date="1591166789693" expanded="true" signature="2994:3016" ph="select * fro... category" />
+                <marker date="1591166789693" expanded="true" signature="3485:3665" ph="insert into spl_food... " />
+                <marker date="1591166789693" expanded="true" signature="3810:3988" ph="select speci... spl_food" />
+                <marker date="1591166789693" expanded="true" signature="4208:4260" ph="delete from " />
+                <marker date="1591166789693" expanded="true" signature="4458:4684" ph="select speci... spl_food" />
+                <marker date="1591166789693" expanded="true" signature="4740:4762" ph="select * fro... category" />
+                <marker date="1591166789693" expanded="true" signature="5195:5330" ph="update spl_f... " />
+                <marker date="1591166789693" expanded="true" signature="6480:6562" ph="insert into login... " />
+                <marker date="1591166789693" expanded="true" signature="6598:6837" ph="insert into staff... " />
+                <marker date="1591166789693" expanded="true" signature="6954:6988" ph="select * fro... staff" />
+                <marker date="1591166789693" expanded="true" signature="6954:6991" ph="select * fro... staff" />
+                <marker date="1591166789693" expanded="true" signature="7171:7219" ph="select * fro... staff" />
+                <marker date="1591166789693" expanded="true" signature="7423:7483" ph="select * fro... staff" />
+                <marker date="1591166789693" expanded="true" signature="8034:8245" ph="update staff... " />
+                <marker date="1591166789693" expanded="true" signature="8769:8811" ph="delete from " />
+                <marker date="1591166789693" expanded="true" signature="9248:9299" ph="select * fro... table_hotel" />
+                <marker date="1591166789693" expanded="true" signature="9453:9572" ph="insert into TABLE_hotel... " />
+                <marker date="1591166789693" expanded="true" signature="9716:9764" ph="select * fro... service" />
+                <marker date="1591166789693" expanded="true" signature="9973:9995" ph="select * fro... category" />
+                <marker date="1591166789693" expanded="true" signature="10337:10397" ph="insert into category... " />
+                <marker date="1591166789693" expanded="true" signature="10536:10588" ph="select * fro... category" />
+                <marker date="1591166789693" expanded="true" signature="10884:10967" ph="update categ... " />
+                <marker date="1591166789693" expanded="true" signature="11124:11179" ph="select * fro... complaint" />
+                <marker date="1591166789693" expanded="true" signature="11401:11474" ph="update compl... " />
+                <marker date="1591166789693" expanded="true" signature="11600:11625" ph="select * fro... table_hotel" />
+                <marker date="1591166789693" expanded="true" signature="11819:11873" ph="delete from " />
+                <marker date="1591166789693" expanded="true" signature="12025:12080" ph="select * fro... table_hotel" />
+                <marker date="1591166789693" expanded="true" signature="12416:12503" ph="select * fro... table_hotel" />
+                <marker date="1591166789693" expanded="true" signature="12632:12697" ph="update table... " />
+                <marker date="1591166789693" expanded="true" signature="13280:13302" ph="select * fro... category" />
+                <marker date="1591166789693" expanded="true" signature="13495:13543" ph="delete from " />
+                <marker date="1591166789693" expanded="true" signature="13690:13858" ph="select compl... customer" />
+                <marker date="1591166789693" expanded="true" signature="14044:14186" ph="select feedb... customer" />
+                <marker date="1591166789693" expanded="true" signature="14325:14541" ph="select food_... food_items" />
+                <marker date="1591166789693" expanded="true" signature="14325:14568" ph="select food_... food_items" />
+                <marker date="1591166789693" expanded="true" signature="14773:14824" ph="delete from " />
+                <marker date="1591166789693" expanded="true" signature="14987:15231" ph="select food_... food_items" />
+                <marker date="1591166789693" expanded="true" signature="15287:15309" ph="select * fro... category" />
+                <marker date="1591166789693" expanded="true" signature="15888:16050" ph="update food_... " />
+                <marker date="1591166789693" expanded="true" signature="16116:16279" ph="update food_... " />
+                <marker date="1591166789693" expanded="true" signature="16339:16502" ph="update food_... " />
+                <marker date="1591166789693" expanded="true" signature="16649:16805" ph="Select bank.... bank" />
+                <marker date="1591166789693" expanded="true" signature="16990:17011" ph="select * fro... service" />
+                <marker date="1591166789693" expanded="true" signature="17325:17418" ph="update servi... " />
+                <marker date="1591166789693" expanded="true" signature="17555:17602" ph="delete from " />
+                <marker date="1591166789693" expanded="true" signature="17990:18167" ph="select order... customer" />
+                <marker date="1591166789693" expanded="true" signature="18333:18688" ph="SELECT table... table_hotel" />
+                <marker date="1591166789693" expanded="true" signature="18865:18927" ph="update table... " />
+                <marker date="1591166789693" expanded="true" signature="18865:18939" ph="UPDATE `orde... " />
+                <marker date="1591166789693" expanded="true" signature="19001:19065" ph="update table... " />
+                <marker date="1591166789693" expanded="true" signature="19218:19293" ph="select food_... order_table" />
+                <marker date="1591166789693" expanded="true" signature="19457:19534" ph="UPDATE `orde... " />
+                <marker date="1591166789693" expanded="true" signature="19779:19990" ph="SELECT compl... complaint" />
+                <marker date="1591166789693" expanded="true" signature="20192:20243" ph="select * fro... complaint" />
+                <marker date="1591166789693" expanded="true" signature="20478:20563" ph="update compl... " />
+                <marker date="1591166789693" expanded="true" signature="20699:20847" ph="SELECT `feed... customer" />
+                <marker date="1591166789693" expanded="true" signature="21133:21323" ph="select order... customer" />
+                <marker date="1591166789693" expanded="true" signature="21505:21817" ph="select food_... order_table" />
+                <marker date="1591166789693" expanded="true" signature="22004:22078" ph="update order... " />
+                <marker date="1591166789693" expanded="true" signature="22352:22557" ph="select order... customer" />
+                <marker date="1591166789693" expanded="true" signature="22741:22810" ph="update order... " />
+                <marker date="1591166789693" expanded="true" signature="22971:23176" ph="select order... food_items" />
+                <marker date="1591166789693" expanded="true" signature="23367:23568" ph="SELECT order... customer" />
+                <marker date="1591166789693" expanded="true" signature="24121:24241" ph="insert into vehicle... " />
+                <marker date="1591166789693" expanded="true" signature="24386:24436" ph="SELECT * FRO... vehicle" />
+                <marker date="1591166789693" expanded="true" signature="24643:24707" ph="select * fro... vehicle" />
+                <marker date="1591166789693" expanded="true" signature="25047:25157" ph="update vehic... " />
+                <marker date="1591166789693" expanded="true" signature="25294:25340" ph="delete from " />
+                <marker date="1591166789693" expanded="true" signature="25478:25720" ph="select vehic... vehicle_booking" />
+                <marker date="1591166789693" expanded="true" signature="25478:25744" ph="select vehic... vehicle_booking" />
+                <marker date="1591166789693" expanded="true" signature="25934:26013" ph="update vehic... " />
+                <marker date="1591166789693" expanded="true" signature="26064:26132" ph="update vehic... " />
+                <marker date="1591166789693" expanded="true" signature="26284:26363" ph="update vehic... " />
+                <marker date="1591166789693" expanded="true" signature="26400:26472" ph="UPDATE `vehi... " />
+                <marker date="1591166789693" expanded="true" signature="26615:26765" ph="SELECT `comp... complaint" />
+                <marker date="1591166789693" expanded="true" signature="26975:27026" ph="select * fro... complaint" />
+                <marker date="1591166789693" expanded="true" signature="27273:27358" ph="update compl... " />
+                <marker date="1591166789693" expanded="true" signature="27703:27853" ph="SELECT `feed... customer" />
+                <marker date="1591166789693" expanded="true" signature="28262:28339" ph="select * fro... login" />
+                <marker date="1591166789693" expanded="true" signature="28414:28482" ph="SELECT * FRO... customer" />
+                <marker date="1591166789693" expanded="true" signature="29097:29188" ph="insert into login... " />
+                <marker date="1591166789693" expanded="true" signature="29229:29448" ph="INSERT INTO `customer`... " />
+                <marker date="1591166789693" expanded="true" signature="29700:29842" ph="INSERT INTO `complaint`... " />
+                <marker date="1591166789693" expanded="true" signature="30055:30151" ph="SELECT * FRO... complaint" />
+                <marker date="1591166789693" expanded="true" signature="30393:30515" ph="INSERT INTO `feedbacks`... " />
+                <marker date="1591166789693" expanded="true" signature="30720:30825" ph="SELECT * FRO... feedbacks" />
+                <marker date="1591166789693" expanded="true" signature="31009:31117" ph="SELECT `vehi... vehicle" />
+                <marker date="1591166789693" expanded="true" signature="31009:31126" ph="SELECT `vehi... vehicle" />
+                <marker date="1591166789693" expanded="true" signature="31382:31529" ph="insert into vehicle_booking... " />
+                <marker date="1591166789693" expanded="true" signature="31581:31654" ph="UPDATE `vehi... " />
+                <marker date="1591166789693" expanded="true" signature="31832:31892" ph="SELECT * FRO... table_hotel" />
+                <marker date="1591166789693" expanded="true" signature="32276:32375" ph="select amt f... bank" />
+                <marker date="1591166789693" expanded="true" signature="32671:32759" ph="update bank " />
+                <marker date="1591166789693" expanded="true" signature="32800:32870" ph="update table... " />
+                <marker date="1591166789693" expanded="true" signature="32933:33019" ph="INSERT INTO `table_booking`... " />
+                <marker date="1591166789693" expanded="true" signature="32933:33078" ph="INSERT INTO `table_booking`... " />
+                <marker date="1591166789693" expanded="true" signature="33162:33201" ph="select amt f... bank" />
+                <marker date="1591166789693" expanded="true" signature="33395:33458" ph="update bank " />
+                <marker date="1591166789693" expanded="true" signature="33879:34014" ph="select * fro... bank" />
+                <marker date="1591166789693" expanded="true" signature="34299:34434" ph="insert into `table_booking`... " />
+                <marker date="1591166789693" expanded="true" signature="34459:34567" ph="update bank " />
+                <marker date="1591166789693" expanded="true" signature="34697:34719" ph="SELECT * FRO... category" />
+                <marker date="1591166789693" expanded="true" signature="34930:35093" ph="SELECT `food... food_items" />
+                <marker date="1591166789693" expanded="true" signature="35509:35702" ph="select speci... spl_food" />
+                <marker date="1591166789693" expanded="true" signature="35987:36108" ph="SELECT `food... food_items" />
+                <marker date="1591166789693" expanded="true" signature="36322:36510" ph="SELECT `vehi... vehicle_booking" />
+                <marker date="1591166789693" expanded="true" signature="36322:36523" ph="SELECT `vehi... vehicle_booking" />
+                <marker date="1591166789693" expanded="true" signature="36885:36975" ph="select * fro... cart" />
+                <marker date="1591166789693" expanded="true" signature="37038:37185" ph="insert into cart... " />
+                <marker date="1591166789693" expanded="true" signature="37315:37420" ph="update cart " />
+                <marker date="1591166789693" expanded="true" signature="37622:37695" ph="select cart_... cart" />
+                <marker date="1591166789693" expanded="true" signature="38131:38175" ph="delete from " />
+                <marker date="1591166789693" expanded="true" signature="38580:38715" ph="select * fro... bank" />
+                <marker date="1591166789693" expanded="true" signature="39024:39070" ph="select * fro... cart" />
+                <marker date="1591166789693" expanded="true" signature="39125:39193" ph="select table... table_booking" />
+                <marker date="1591166789693" expanded="true" signature="39305:39480" ph="insert into order_master... " />
+                <marker date="1591166789693" expanded="true" signature="39534:39687" ph="insert into order_table... " />
+                <marker date="1591166789693" expanded="true" signature="39746:39804" ph="delete from " />
+                <marker date="1591166789693" expanded="true" signature="39833:39945" ph="update bank " />
+                <marker date="1591166789693" expanded="true" signature="40129:40334" ph="SELECT `orde... order_master" />
+                <marker date="1591166789693" expanded="true" signature="40627:40698" ph="select quant... cart" />
+                <marker date="1591166789693" expanded="true" signature="40918:41029" ph="insert into order_master... " />
+                <marker date="1591166789693" expanded="true" signature="41162:41310" ph="insert into order_table... " />
+                <marker date="1591166789693" expanded="true" signature="41799:41898" ph="select amt f... bank" />
+                <marker date="1591166789693" expanded="true" signature="42194:42282" ph="update bank " />
+                <marker date="1591166789693" expanded="true" signature="42330:42424" ph="select order... order_master" />
+                <marker date="1591166789693" expanded="true" signature="42523:42613" ph="update order... " />
+                <marker date="1591166789693" expanded="true" signature="42704:42743" ph="select amt f... bank" />
+                <marker date="1591166789693" expanded="true" signature="42937:43000" ph="update bank " />
+                <marker date="1591166789693" expanded="true" signature="43067:43112" ph="delete from " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/Manager/dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="883" column="65" lean-forward="false" selection-start-line="883" selection-start-column="65" selection-end-line="883" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="861">
+              <caret line="41" column="73" lean-forward="false" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit staff.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Admin/edit staff.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View Feedback.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Admin/View Feedback.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Admin/index2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10962">
+              <caret line="522" column="184" lean-forward="false" selection-start-line="522" selection-start-column="14" selection-end-line="522" selection-end-column="184" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>class=&quot;col-sm-6 c</find>
+      <find>index</find>
+      <find>Foods</find>
+      <find>cat</find>
+      <find>cate</find>
+      <find>/adm_add_food</find>
+      <find>INSERT INTO category</find>
+      <find>/ManagerHomepage</find>
+      <find>/adm_Homepage</find>
+      <find>/login_</find>
+      <find>insert into ca</find>
+      <find>category</find>
+      <find>select</find>
+      <find>View ca</find>
+      <find>/adm_Manage_Category</find>
+      <find>bgnew.png</find>
+      <find>adm_edit_categor</find>
+      <find>adm_Homepage</find>
+      <find>admin-bgnew.png</find>
+      <find>view_food</find>
+      <find>staff</find>
+      <find>food</find>
+      <find>Hote</find>
+      <find>bgnew</find>
+      <find>/adm_View_Feedback</find>
+      <find>edit_staff</find>
+      <find>data</find>
+      <find>spl</find>
+      <find>pass</find>
+      <find>rand</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/Transport/View Vehicles.html" />
+        <option value="$PROJECT_DIR$/templates/Manager/Transport View Feedback.html" />
+        <option value="$PROJECT_DIR$/templates/Manager/View Items.html" />
+        <option value="$PROJECT_DIR$/templates/Waitor/Waitor View Items.html" />
+        <option value="$PROJECT_DIR$/templates/Waitor/Waitor View Order.html" />
+        <option value="$PROJECT_DIR$/templates/Transport/View Booking.html" />
+        <option value="$PROJECT_DIR$/templates/Waitor/wtrdashboard.html" />
+        <option value="$PROJECT_DIR$/templates/Transport/trndashboard.html" />
+        <option value="$PROJECT_DIR$/templates/Manager/dashboard.html" />
+        <option value="$PROJECT_DIR$/templates/Manager/view_tbl.html" />
+        <option value="$PROJECT_DIR$/hotel/templates/Admin/index.html" />
+        <option value="$PROJECT_DIR$/hotel/templates/Admin/index2.html" />
+        <option value="$PROJECT_DIR$/hotel/templates/Admin/abc.html" />
+        <option value="$PROJECT_DIR$/hotel/templates/mmm.html" />
+        <option value="$PROJECT_DIR$/hotel/templates/asd.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/add food items.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/add service.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/add special food items.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/add staff.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/add table.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/edit add table.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/edit food items.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/edit service.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/edit staff.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/Send reply.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/Staff View More.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/view add table.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/View Category.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/View Complaints.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/View Feedback.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/view food items.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/view payment report.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/view service.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/view special food items.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/view staff.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/Manage Category.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/Edit Category.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/edit special food items.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/index.html" />
+        <option value="$PROJECT_DIR$/templates/Login.html" />
+        <option value="$PROJECT_DIR$/templates/Admin/index2.html" />
+        <option value="$PROJECT_DIR$/hotel.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectId" id="1YtyiCWgLs5IUdMSiaWjVLFq0Y0" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="adm_view_c&#9;null&#9;null&#10;mng&#9;null&#9;null&#10;man&#9;FILE&#9;file://C:/Users/user/PycharmProjects/hotel/templates/Manager/ManagerHomepage.html&#10;lid&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ammar Abdul Aziz\Desktop\Hilton Hotel\hotel\templates" />
+      <recent name="C:\Users\user\PycharmProjects\hotel\static\LoginTemp" />
+      <recent name="C:\Users\user\PycharmProjects\hotel\static\AdminTemp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ammar Abdul Aziz\Desktop\Hilton Hotel\hotel\templates\Manager" />
+      <recent name="C:\Users\Ammar Abdul Aziz\Desktop\hotel\static\MngTemp\assets\img" />
+      <recent name="C:\Users\Ammar Abdul Aziz\Desktop\hotel\static\AdminTemp\images\icon" />
+      <recent name="F:\saficlg hotel\hotel\templates\Manager" />
+      <recent name="F:\saficlg hotel\hotel\templates\Transport" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.hotel">
+    <configuration default="false" name="Homepage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hotel/templates/Admin/Homepage.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Login.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hotel/templates/Login.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="add staff.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hotel/templates/Admin/add staff.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hotel/templates/Admin/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="template.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hotel/templates/Manager/template.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hotel" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hotel" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hotel" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="hotel" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hotel" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hotel" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ManagerHomepage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/hotel/templates/Manager/ManagerHomepage.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="hotel" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python34\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hotel" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hotel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ManagerHomepage.html" />
+      <item index="1" class="java.lang.String" itemvalue="Python.hotel" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Homepage.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Login.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.add staff.html" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="6" class="java.lang.String" itemvalue="JavaScript Debug.template.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.template.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.add staff.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Login.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Homepage.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5be4ecd2-9827-4fcd-92af-4d19fa6df605" name="Default" comment="" />
+      <created>1574834925664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574834925664</updated>
+      <workItem from="1583776336023" duration="27136000" />
+      <workItem from="1583900057921" duration="11320000" />
+      <workItem from="1583996200750" duration="4092000" />
+      <workItem from="1584021910570" duration="2861000" />
+      <workItem from="1584027957501" duration="4384000" />
+      <workItem from="1584081813658" duration="8154000" />
+      <workItem from="1584155586317" duration="2687000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16684961" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583776452449">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583776452449" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1584156187655">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584156187655" />
+    <state width="1323" height="226" key="GridCell.Tab.0.bottom" timestamp="1584086347306">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584086347306" />
+    <state width="1323" height="226" key="GridCell.Tab.0.center" timestamp="1584086347276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584086347276" />
+    <state width="1323" height="226" key="GridCell.Tab.0.left" timestamp="1584086347276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584086347276" />
+    <state width="1323" height="226" key="GridCell.Tab.0.right" timestamp="1584086347276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="226" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584086347276" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1583777173930">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583777173930" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1584155585996">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584155585996" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hotel$hotel.coverage" NAME="hotel Coverage Results" MODIFIED="1584081821209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/Manager/View Complaint.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Manager/Transport View Feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Manager/View Items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Waitor/Waitor View Items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Waitor/Waitor View Order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Transport/View Booking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Waitor/wtrdashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2184">
+          <caret line="104" column="68" lean-forward="false" selection-start-line="104" selection-start-column="68" selection-end-line="104" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Manager/View Order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="48" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Manager/view_tbl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="78" lean-forward="false" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel/templates/Admin/add service.html" />
+    <entry file="file://$PROJECT_DIR$/hotel/templates/Admin/add special food items.html" />
+    <entry file="file://$PROJECT_DIR$/hotel/templates/Admin/view food items.html" />
+    <entry file="file://$PROJECT_DIR$/hotel/templates/Admin/Homepage.html" />
+    <entry file="file://$PROJECT_DIR$/hotel/templates/Admin/add food items.html" />
+    <entry file="file://$PROJECT_DIR$/hotel/templates/Admin/Manage Category.html" />
+    <entry file="file://$PROJECT_DIR$/hotel/templates/Admin/index.html" />
+    <entry file="file://$PROJECT_DIR$/hotel/templates/Admin/index2.html" />
+    <entry file="file://$PROJECT_DIR$/hotel/templates/Admin/abc.html" />
+    <entry file="file://$PROJECT_DIR$/hotel/templates/Manager/dashboard.html" />
+    <entry file="file://$PROJECT_DIR$/hotel/templates/mmm.html" />
+    <entry file="file://$PROJECT_DIR$/templates/asd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/add staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/add table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/edit add table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/edit service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Send reply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/view add table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/View Complaints.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/View Category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Staff View More.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/view food items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/view payment report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/view service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/view special food items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/view staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/add service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/add food items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="88" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Edit Category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="106" lean-forward="false" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/Manage Category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="92" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/edit special food items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="108" lean-forward="false" selection-start-line="27" selection-start-column="108" selection-end-line="27" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/edit food items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="97" lean-forward="false" selection-start-line="7" selection-start-column="97" selection-end-line="7" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/add special food items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="1073" column="4" lean-forward="false" selection-start-line="1073" selection-start-column="4" selection-end-line="1073" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Transport/TransportHomepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Transport/trndashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="125" column="73" lean-forward="false" selection-start-line="125" selection-start-column="73" selection-end-line="125" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10962">
+          <caret line="522" column="184" lean-forward="false" selection-start-line="522" selection-start-column="14" selection-end-line="522" selection-end-column="184" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/View Feedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/edit staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="73" lean-forward="false" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4305">
+          <caret line="207" column="17" lean-forward="false" selection-start-line="207" selection-start-column="13" selection-end-line="207" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+            <marker date="1591166789693" expanded="true" signature="433:492" ph="select * fro... login" />
+            <marker date="1591166789693" expanded="true" signature="720:797" ph="select * fro... login" />
+            <marker date="1591166789693" expanded="true" signature="1893:1915" ph="select * fro... category" />
+            <marker date="1591166789693" expanded="true" signature="2332:2474" ph="insert into food_items... " />
+            <marker date="1591166789693" expanded="true" signature="2786:2859" ph="insert into service... " />
+            <marker date="1591166789693" expanded="true" signature="2994:3016" ph="select * fro... category" />
+            <marker date="1591166789693" expanded="true" signature="3485:3665" ph="insert into spl_food... " />
+            <marker date="1591166789693" expanded="true" signature="3810:3988" ph="select speci... spl_food" />
+            <marker date="1591166789693" expanded="true" signature="4208:4260" ph="delete from " />
+            <marker date="1591166789693" expanded="true" signature="4458:4684" ph="select speci... spl_food" />
+            <marker date="1591166789693" expanded="true" signature="4740:4762" ph="select * fro... category" />
+            <marker date="1591166789693" expanded="true" signature="5195:5330" ph="update spl_f... " />
+            <marker date="1591166789693" expanded="true" signature="6480:6562" ph="insert into login... " />
+            <marker date="1591166789693" expanded="true" signature="6598:6837" ph="insert into staff... " />
+            <marker date="1591166789693" expanded="true" signature="6954:6988" ph="select * fro... staff" />
+            <marker date="1591166789693" expanded="true" signature="6954:6991" ph="select * fro... staff" />
+            <marker date="1591166789693" expanded="true" signature="7171:7219" ph="select * fro... staff" />
+            <marker date="1591166789693" expanded="true" signature="7423:7483" ph="select * fro... staff" />
+            <marker date="1591166789693" expanded="true" signature="8034:8245" ph="update staff... " />
+            <marker date="1591166789693" expanded="true" signature="8769:8811" ph="delete from " />
+            <marker date="1591166789693" expanded="true" signature="9248:9299" ph="select * fro... table_hotel" />
+            <marker date="1591166789693" expanded="true" signature="9453:9572" ph="insert into TABLE_hotel... " />
+            <marker date="1591166789693" expanded="true" signature="9716:9764" ph="select * fro... service" />
+            <marker date="1591166789693" expanded="true" signature="9973:9995" ph="select * fro... category" />
+            <marker date="1591166789693" expanded="true" signature="10337:10397" ph="insert into category... " />
+            <marker date="1591166789693" expanded="true" signature="10536:10588" ph="select * fro... category" />
+            <marker date="1591166789693" expanded="true" signature="10884:10967" ph="update categ... " />
+            <marker date="1591166789693" expanded="true" signature="11124:11179" ph="select * fro... complaint" />
+            <marker date="1591166789693" expanded="true" signature="11401:11474" ph="update compl... " />
+            <marker date="1591166789693" expanded="true" signature="11600:11625" ph="select * fro... table_hotel" />
+            <marker date="1591166789693" expanded="true" signature="11819:11873" ph="delete from " />
+            <marker date="1591166789693" expanded="true" signature="12025:12080" ph="select * fro... table_hotel" />
+            <marker date="1591166789693" expanded="true" signature="12416:12503" ph="select * fro... table_hotel" />
+            <marker date="1591166789693" expanded="true" signature="12632:12697" ph="update table... " />
+            <marker date="1591166789693" expanded="true" signature="13280:13302" ph="select * fro... category" />
+            <marker date="1591166789693" expanded="true" signature="13495:13543" ph="delete from " />
+            <marker date="1591166789693" expanded="true" signature="13690:13858" ph="select compl... customer" />
+            <marker date="1591166789693" expanded="true" signature="14044:14186" ph="select feedb... customer" />
+            <marker date="1591166789693" expanded="true" signature="14325:14541" ph="select food_... food_items" />
+            <marker date="1591166789693" expanded="true" signature="14325:14568" ph="select food_... food_items" />
+            <marker date="1591166789693" expanded="true" signature="14773:14824" ph="delete from " />
+            <marker date="1591166789693" expanded="true" signature="14987:15231" ph="select food_... food_items" />
+            <marker date="1591166789693" expanded="true" signature="15287:15309" ph="select * fro... category" />
+            <marker date="1591166789693" expanded="true" signature="15888:16050" ph="update food_... " />
+            <marker date="1591166789693" expanded="true" signature="16116:16279" ph="update food_... " />
+            <marker date="1591166789693" expanded="true" signature="16339:16502" ph="update food_... " />
+            <marker date="1591166789693" expanded="true" signature="16649:16805" ph="Select bank.... bank" />
+            <marker date="1591166789693" expanded="true" signature="16990:17011" ph="select * fro... service" />
+            <marker date="1591166789693" expanded="true" signature="17325:17418" ph="update servi... " />
+            <marker date="1591166789693" expanded="true" signature="17555:17602" ph="delete from " />
+            <marker date="1591166789693" expanded="true" signature="17990:18167" ph="select order... customer" />
+            <marker date="1591166789693" expanded="true" signature="18333:18688" ph="SELECT table... table_hotel" />
+            <marker date="1591166789693" expanded="true" signature="18865:18927" ph="update table... " />
+            <marker date="1591166789693" expanded="true" signature="18865:18939" ph="UPDATE `orde... " />
+            <marker date="1591166789693" expanded="true" signature="19001:19065" ph="update table... " />
+            <marker date="1591166789693" expanded="true" signature="19218:19293" ph="select food_... order_table" />
+            <marker date="1591166789693" expanded="true" signature="19457:19534" ph="UPDATE `orde... " />
+            <marker date="1591166789693" expanded="true" signature="19779:19990" ph="SELECT compl... complaint" />
+            <marker date="1591166789693" expanded="true" signature="20192:20243" ph="select * fro... complaint" />
+            <marker date="1591166789693" expanded="true" signature="20478:20563" ph="update compl... " />
+            <marker date="1591166789693" expanded="true" signature="20699:20847" ph="SELECT `feed... customer" />
+            <marker date="1591166789693" expanded="true" signature="21133:21323" ph="select order... customer" />
+            <marker date="1591166789693" expanded="true" signature="21505:21817" ph="select food_... order_table" />
+            <marker date="1591166789693" expanded="true" signature="22004:22078" ph="update order... " />
+            <marker date="1591166789693" expanded="true" signature="22352:22557" ph="select order... customer" />
+            <marker date="1591166789693" expanded="true" signature="22741:22810" ph="update order... " />
+            <marker date="1591166789693" expanded="true" signature="22971:23176" ph="select order... food_items" />
+            <marker date="1591166789693" expanded="true" signature="23367:23568" ph="SELECT order... customer" />
+            <marker date="1591166789693" expanded="true" signature="24121:24241" ph="insert into vehicle... " />
+            <marker date="1591166789693" expanded="true" signature="24386:24436" ph="SELECT * FRO... vehicle" />
+            <marker date="1591166789693" expanded="true" signature="24643:24707" ph="select * fro... vehicle" />
+            <marker date="1591166789693" expanded="true" signature="25047:25157" ph="update vehic... " />
+            <marker date="1591166789693" expanded="true" signature="25294:25340" ph="delete from " />
+            <marker date="1591166789693" expanded="true" signature="25478:25720" ph="select vehic... vehicle_booking" />
+            <marker date="1591166789693" expanded="true" signature="25478:25744" ph="select vehic... vehicle_booking" />
+            <marker date="1591166789693" expanded="true" signature="25934:26013" ph="update vehic... " />
+            <marker date="1591166789693" expanded="true" signature="26064:26132" ph="update vehic... " />
+            <marker date="1591166789693" expanded="true" signature="26284:26363" ph="update vehic... " />
+            <marker date="1591166789693" expanded="true" signature="26400:26472" ph="UPDATE `vehi... " />
+            <marker date="1591166789693" expanded="true" signature="26615:26765" ph="SELECT `comp... complaint" />
+            <marker date="1591166789693" expanded="true" signature="26975:27026" ph="select * fro... complaint" />
+            <marker date="1591166789693" expanded="true" signature="27273:27358" ph="update compl... " />
+            <marker date="1591166789693" expanded="true" signature="27703:27853" ph="SELECT `feed... customer" />
+            <marker date="1591166789693" expanded="true" signature="28262:28339" ph="select * fro... login" />
+            <marker date="1591166789693" expanded="true" signature="28414:28482" ph="SELECT * FRO... customer" />
+            <marker date="1591166789693" expanded="true" signature="29097:29188" ph="insert into login... " />
+            <marker date="1591166789693" expanded="true" signature="29229:29448" ph="INSERT INTO `customer`... " />
+            <marker date="1591166789693" expanded="true" signature="29700:29842" ph="INSERT INTO `complaint`... " />
+            <marker date="1591166789693" expanded="true" signature="30055:30151" ph="SELECT * FRO... complaint" />
+            <marker date="1591166789693" expanded="true" signature="30393:30515" ph="INSERT INTO `feedbacks`... " />
+            <marker date="1591166789693" expanded="true" signature="30720:30825" ph="SELECT * FRO... feedbacks" />
+            <marker date="1591166789693" expanded="true" signature="31009:31117" ph="SELECT `vehi... vehicle" />
+            <marker date="1591166789693" expanded="true" signature="31009:31126" ph="SELECT `vehi... vehicle" />
+            <marker date="1591166789693" expanded="true" signature="31382:31529" ph="insert into vehicle_booking... " />
+            <marker date="1591166789693" expanded="true" signature="31581:31654" ph="UPDATE `vehi... " />
+            <marker date="1591166789693" expanded="true" signature="31832:31892" ph="SELECT * FRO... table_hotel" />
+            <marker date="1591166789693" expanded="true" signature="32276:32375" ph="select amt f... bank" />
+            <marker date="1591166789693" expanded="true" signature="32671:32759" ph="update bank " />
+            <marker date="1591166789693" expanded="true" signature="32800:32870" ph="update table... " />
+            <marker date="1591166789693" expanded="true" signature="32933:33019" ph="INSERT INTO `table_booking`... " />
+            <marker date="1591166789693" expanded="true" signature="32933:33078" ph="INSERT INTO `table_booking`... " />
+            <marker date="1591166789693" expanded="true" signature="33162:33201" ph="select amt f... bank" />
+            <marker date="1591166789693" expanded="true" signature="33395:33458" ph="update bank " />
+            <marker date="1591166789693" expanded="true" signature="33879:34014" ph="select * fro... bank" />
+            <marker date="1591166789693" expanded="true" signature="34299:34434" ph="insert into `table_booking`... " />
+            <marker date="1591166789693" expanded="true" signature="34459:34567" ph="update bank " />
+            <marker date="1591166789693" expanded="true" signature="34697:34719" ph="SELECT * FRO... category" />
+            <marker date="1591166789693" expanded="true" signature="34930:35093" ph="SELECT `food... food_items" />
+            <marker date="1591166789693" expanded="true" signature="35509:35702" ph="select speci... spl_food" />
+            <marker date="1591166789693" expanded="true" signature="35987:36108" ph="SELECT `food... food_items" />
+            <marker date="1591166789693" expanded="true" signature="36322:36510" ph="SELECT `vehi... vehicle_booking" />
+            <marker date="1591166789693" expanded="true" signature="36322:36523" ph="SELECT `vehi... vehicle_booking" />
+            <marker date="1591166789693" expanded="true" signature="36885:36975" ph="select * fro... cart" />
+            <marker date="1591166789693" expanded="true" signature="37038:37185" ph="insert into cart... " />
+            <marker date="1591166789693" expanded="true" signature="37315:37420" ph="update cart " />
+            <marker date="1591166789693" expanded="true" signature="37622:37695" ph="select cart_... cart" />
+            <marker date="1591166789693" expanded="true" signature="38131:38175" ph="delete from " />
+            <marker date="1591166789693" expanded="true" signature="38580:38715" ph="select * fro... bank" />
+            <marker date="1591166789693" expanded="true" signature="39024:39070" ph="select * fro... cart" />
+            <marker date="1591166789693" expanded="true" signature="39125:39193" ph="select table... table_booking" />
+            <marker date="1591166789693" expanded="true" signature="39305:39480" ph="insert into order_master... " />
+            <marker date="1591166789693" expanded="true" signature="39534:39687" ph="insert into order_table... " />
+            <marker date="1591166789693" expanded="true" signature="39746:39804" ph="delete from " />
+            <marker date="1591166789693" expanded="true" signature="39833:39945" ph="update bank " />
+            <marker date="1591166789693" expanded="true" signature="40129:40334" ph="SELECT `orde... order_master" />
+            <marker date="1591166789693" expanded="true" signature="40627:40698" ph="select quant... cart" />
+            <marker date="1591166789693" expanded="true" signature="40918:41029" ph="insert into order_master... " />
+            <marker date="1591166789693" expanded="true" signature="41162:41310" ph="insert into order_table... " />
+            <marker date="1591166789693" expanded="true" signature="41799:41898" ph="select amt f... bank" />
+            <marker date="1591166789693" expanded="true" signature="42194:42282" ph="update bank " />
+            <marker date="1591166789693" expanded="true" signature="42330:42424" ph="select order... order_master" />
+            <marker date="1591166789693" expanded="true" signature="42523:42613" ph="update order... " />
+            <marker date="1591166789693" expanded="true" signature="42704:42743" ph="select amt f... bank" />
+            <marker date="1591166789693" expanded="true" signature="42937:43000" ph="update bank " />
+            <marker date="1591166789693" expanded="true" signature="43067:43112" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Manager/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="883" column="65" lean-forward="false" selection-start-line="883" selection-start-column="65" selection-end-line="883" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

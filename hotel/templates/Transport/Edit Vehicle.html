@@ -1,0 +1,48 @@
+{% extends "Transport/trndashboard.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/trn_edit_add_vehicle">
+<div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                    <h4 class="card-title "><b>Vehicle Management</b></h4>
+{#                  <p class="card-category"> Here is a subtitle for this table</p>#}
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+
+
+
+    <tr>
+      <td>Vehicle Name</td>
+      <td><label for="textfield"></label>
+      <input type="text" name="textfield" id="textfield"  value="{{ data['vehicle_name'] }}" class="form-control"/></td>
+    </tr>
+    <tr>
+      <td>Registration Number</td>
+      <td><label for="textfield2"></label>
+      <input type="text" name="textfield2" id="textfield2" value="{{ data['reg_no'] }}"   class="form-control"/></td>
+    </tr>
+    <tr>
+      <td>Fare (Per Km)</td>
+      <td><label for="textfield3"></label>
+      <input type="text" name="textfield3" id="textfield3" value="{{ data['fare'] }}"   class="form-control"/></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" name="button" id="button" value="Add" class="btn-success"></td>
+    </tr>
+  </table>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+</form>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "Transport/trndashboard.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+<div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                    <h4 class="card-title "><b>View Feedback</b></h4>
+{#                  <p class="card-category"> Here is a subtitle for this table</p>#}
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+
+    <tr>
+      <td>Sl No.</td>
+      <td>User Name</td>
+{#      <td>Vehicle Id</td>#}
+      <td>Feedback</td>
+      <td>Date</td>
+    </tr>
+      {% for i in values %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i["customer_name"] }}</td>
+{#      <td> {{ i["vehicle_id"] }}</td>#}
+      <td>&nbsp;{{ i["feedbacks"] }}</td>
+      <td>&nbsp;{{ i["date"] }}</td>
+    </tr>
+      {% endfor %}
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+</form>
+{% endblock %}

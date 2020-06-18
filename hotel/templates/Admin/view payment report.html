@@ -1,0 +1,25 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/adm_view_payment_report">
+  <table class="table table-striped">
+    <tr>
+      <td><b>Sl No.</b></td>
+      <td><b>User Name</b></td>
+      <td><b>Card Number</b></td>
+      <td><b>Valid Thru</b></td>
+      <td><b>CVV</b></td>
+      <td>Amount</td>
+    </tr>
+      {% for i in values %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i["customer_name"] }}</td>
+      <td>&nbsp;{{ i["card_number"] }}</td>
+      <td>&nbsp;{{ i["valid_thru"] }}</td>
+      <td>&nbsp;{{ i["cvv"] }}</td>
+      <td>&nbsp;{{ i["total"] }}</td>
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+{% endblock %}

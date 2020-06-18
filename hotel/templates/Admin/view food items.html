@@ -1,0 +1,29 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table class="table table-striped">
+    <tr>
+      <td><b>No.</b></td>
+      <td><b>Food Name</b></td>
+      <td><b>Price</b></td>
+      <td><b>Photo</b></td>
+      <td><b>Description</b></td>
+      <td><b>Category</b></td>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+      {% for i in values %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i["food_name"] }}</td>
+      <td>&nbsp;{{ i["price"] }}</td>
+      <td> <img src="{{ i["picture"] }}" height="100px" width="100px" alt=""/></td>
+      <td> {{ i["description"] }}</td>
+      <td> {{ i["category_name"] }}</td>
+
+      <td><a href="/adm_view_food_items_edit/{{ i["food_item_id"] }}" class="btn btn-info btn-sm"><i class="fas fa-pencil-alt"></i>  edit</a></td>
+      <td><a href="/adm_view_food_items_delete/{{ i["food_item_id"] }}"  class="btn btn-danger btn-sm"><i class="fas fa-trash"></i>  delete</a></td>
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+{% endblock %}

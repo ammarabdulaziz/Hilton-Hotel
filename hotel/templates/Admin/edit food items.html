@@ -1,0 +1,44 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+<form action="/update_foods" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table class="table table-hover">
+    <tr>
+      <td>Food Name</td>
+      <td>
+      <input type="text" name="textfield" class="form-control" id="textfield"  value="{{ data["food_name"] }}"/><input type="hidden" name="id" value="{{ data["food_item_id"] }}"/></td>
+    </tr>
+    <tr>
+      <td>Price</td>
+      <td>
+      <input type="text" name="textfield2" class="form-control" id="textfield2" value="{{ data["price"] }}"required/></td>
+    </tr>
+    <tr>
+      <td>Add Photo</td>
+      <td>
+      <input type="file" name="pic" class="form-control" id="fileField"/></td>
+    </tr>
+  <tr>
+      <td>Description</td>
+      <td>
+      <textarea name="des"  >{{ data["description"] }}</textarea></td>
+    </tr>
+    <tr>
+      <td>Category</td>
+      <td>
+        <select name="select" class="form-control" id="select">
+            <option value="{{ data["category_id"] }}" selected="selected">{{ data["category_name"] }}</option>
+        <option>--select--</option>
+            {% for i in cat %}
+            <option value="{{ i["category_id"] }}">{{ i["category_name"] }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input type="submit" name="button" class="form-control" id="button" class="btn btn-success" value="Add" required/>
+      </div></td>
+    </tr>
+  </table>
+</form>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/manage_category">
+  <table class="table table-hover">
+    <tr>
+      <td>Category</td>
+      <td>
+        <input type="text" name="select" id="textfield" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input type="submit" name="button" class="form-control" id="button" class="btn btn-success" value="Add" required/>
+      </div></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}

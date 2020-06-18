@@ -1,0 +1,49 @@
+{% extends "Manager/dashboard.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+<div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                    <h4 class="card-title "><b>Complaints</b></h4>
+{#                  <p class="card-category"> Here is a subtitle for this table</p>#}
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+    <tr>
+      <td>Sl No.</td>
+      <td>User Name</td>
+      <td>Complaints</td>
+      <td>Date</td>
+      <td>&nbsp;Reply Status</td>
+    </tr>
+      {% for i in values %}
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td>{{ i["customer_name"] }}</td>
+      <td>{{ i["complaints"] }}</td>
+      <td>{{ i["date"] }}</td>
+
+
+         {% if i["reply"]=="pending" %}
+     <td><a href="/mng_send_reply/{{ i['complaint_id'] }}" class="btn btn-success">Reply</a></td>
+    {% else %}
+        <td>{{ i["reply"] }}<td>
+    {% endif %}
+
+    </tr>
+      {% endfor %}
+      </table>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+</form>
+{% endblock %}

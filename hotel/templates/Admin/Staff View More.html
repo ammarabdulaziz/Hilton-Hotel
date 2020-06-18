@@ -1,0 +1,55 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6" >
+            <div class="well well-sm" style="background:whitesmoke">
+                <div class="row" >
+                    <div class="col-sm-6 col-md-4">
+                        <img src="{{ values['photo'] }}" alt="" class="img-rounded img-responsive"  style="padding-top: 5px"/>
+                    </div>
+                    <div class="col-sm-6 col-md-8">
+                        <h3>
+                            {{ values['staff_name'] }}</h3>
+                        <b>Place : </b>{{ values['place'] }}
+
+                        <p>
+                            <b>Email Id : </b>{{ values['email'] }}
+                            <br />
+                            <b>Department : </b>{{ values['type'] }}
+                            <br />
+                            <b>DOB : </b>{{ values['dob'] }}
+                            <br>
+                        <b>Gender : </b>{{ values['gender'] }}
+                        <br>
+                        <b>Post : </b>{{ values['post'] }}
+                            <br>
+                            <b>Pin : </b>{{ values['pin'] }}
+                        <br>
+                            <b>Phone :</b> {{ values['phone'] }}
+                        </p>
+
+                        <!-- Split button -->
+{#                        <div class="btn-group">#}
+{#                            <button type="button" class="btn btn-primary">#}
+{#                                Social</button>#}
+{#                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">#}
+{#                                <span class="caret"></span><span class="sr-only">Social</span>#}
+{#                            </button>#}
+{#                            <ul class="dropdown-menu" role="menu">#}
+{#                                <li><a href="#">Twitter</a></li>#}
+{#                                <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li>#}
+{#                                <li><a href="https://www.facebook.com/jquery2dotnet">Facebook</a></li>#}
+{#                                <li class="divider"></li>#}
+{#                                <li><a href="#">Github</a></li>#}
+{#                            </ul>#}
+{#                        </div>#}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

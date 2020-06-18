@@ -1,0 +1,89 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+<form id="form1" enctype="multipart/form-data" name="form1" method="post" action="/add_staff" onsubmit="return valid()">
+  <table class="table table-hover">
+    <tr>
+      <td>Staff Name</td>
+      <td>
+      <input type="text" name="textfield" class="form-control" id="textfield" required/></td>
+    </tr>
+      <tr>
+      <td>Add Photo</td>
+      <td>
+      <input type="file" name="pic" class="form-control" id="fileField" required/></td>
+    </tr>
+    <tr>
+      <td>DOB</td>
+      <td><input type="date" class="form-control" name="date" required/></td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td><input type="radio" name="radio"  id="radio" value="male"required  checked="checked"/>
+       Male<br />
+        <input type="radio" name="radio" id="radio2" value="female" required/> Female</td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>
+      <input type="text" name="textfield2" class="form-control" id="textfield2" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" /></td>
+    </tr>
+    <tr>
+      <td>Phone No.</td>
+      <td>
+      <input type="text" name="textfield3" class="form-control" id="textfield3" required pattern="[6789][0-9]{9}" /></td>
+    </tr>
+    <tr>
+      <td>Department</td>
+      <td>
+        <select name="select4" class="form-control" id="select4">
+            <option value="select">select</option>
+            <option value="manager">Manager</option>
+            <option value="waitor">Waitor</option>
+            <option value="transport">Transport</option>
+
+
+      </select></td>
+    </tr>
+    <tr>
+        <td>Place</td>
+        <td><input type="text" name="textfield4" class="form-control" id="textfield4"required /></td>
+    </tr>
+    </tr>
+    <tr>
+        <td>Post</td>
+        <td><input type="text" name="textfield5" class="form-control" id="textfield4"required /></td>
+    </tr>
+    </tr>
+    <tr>
+        <td>Pin</td>
+        <td><input type="text" name="textfield6" class="form-control" id="textfield4" required pattern="[6][0-9]{5}" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" name="button" class="form-control" id="button" class="btn btn-success" value="Add Staff" required/></td>
+    </tr>
+  </table>
+</form>
+<script type="text/javascript" language="JavaScript">
+      function  valid() {
+      var flag=true;
+      var name=document.getElementById("textfield3").value;
+            var select=document.getElementById("select4").value;
+
+     if(name.length!=10){
+      alert("please enter a valid number");
+      flag=false;
+        }
+              else if(select=="select"){
+          alert("please choose any one");
+      flag=false;
+
+     }
+
+      return flag;
+
+      }
+
+
+      </script>
+{% endblock %}

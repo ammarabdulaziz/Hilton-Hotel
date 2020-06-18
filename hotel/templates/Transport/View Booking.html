@@ -1,0 +1,49 @@
+{% extends "Transport/trndashboard.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+<div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                    <h4 class="card-title "><b>Vehicle Management</b></h4>
+{#                  <p class="card-category"> Here is a subtitle for this table</p>#}
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+
+    <tr>
+      <td>Sl No.</td>
+      <td>Customer Name</td>
+      <td>Vehicle Name</td>
+      <td>Date </td>
+      <td>Time</td>
+
+      <td>&nbsp;</td>
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i["customer_name"] }}</td>
+      <td>&nbsp;{{ i["vehicle_name"] }}</td>
+      <td>&nbsp;{{ i["date"] }}</td>
+      <td>&nbsp;{{ i["time"] }}</td>
+
+      <td><a href="/booking_approve/{{ i["vehcile_booking_id"] }}/{{ i["vehicle_id"] }}">Approve</a></td>
+     <td><a href="/booking_reject/{{ i["vehcile_booking_id"] }}//{{ i["vehicle_id"] }}">Reject</a></td>
+    </tr>
+      {% endfor %}
+  </table>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+</form>
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+<form action="/spl_food_items_edit" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table class="table table-hover">
+    <tr>
+      <td>Special Food Name</td>
+      <td>
+      <input type="text" name="textfield" class="form-control" id="textfield" value="{{ data["spl_food_name"] }}"/><input type="hidden" name="id" value="{{ data["special_food_id"] }}"/></td>
+    </tr>
+    <tr>
+      <td>Price</td>
+      <td>
+        <input type="text" name="textfield2" class="form-control" id="textfield2" value="{{ data["price"] }}"required /></td>
+    </tr>
+
+  <tr>
+      <td>Description</td>
+      <td><textarea rows="5" class="form-control" name="descr" id="descr" value=""required>{{ data['description'] }}</textarea></td>
+  </tr>
+    <tr>
+      <td>Available day</td>
+      <td>
+        <select name="ss" class="form-control" id="ss">
+             <option value="Sunday" {% if data['week']=='Sunday' %} selected="selected" {% endif %}>Sunday</option>
+             <option value="Monday" {% if data['week']=='Monday' %} selected="selected" {% endif %}>Monday</option>
+             <option value="Tueday" {% if data['week']=='Tuesday' %} selected="selected" {% endif %}>Tuesday</option>
+             <option value="Wednesday" {% if data['week']=='Wednesday' %} selected="selected" {% endif %}>Wednesday</option>
+             <option value="Thurday" {% if data['week']=='Thursday' %} selected="selected" {% endif %}>Thursday</option>
+             <option value="Friday" {% if data['week']=='Friday' %} selected="selected" {% endif %}>Friday</option>
+             <option value="Saturday" {% if data['week']=='Saturday' %} selected="selected" {% endif %}>Saturday</option>
+      </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Add Food Photo</td>
+      <td>
+      <input type="file" name="photo" class="form-control" id="photo"></td>
+    </tr>
+   <tr>
+      <td>Category</td>
+      <td>
+        <select name="s" class="form-control" id="s">
+            <option value="{{ data["category_id"] }}" selected="selected">{{ data["category_name"] }}</option>
+        <option>--select--</option>
+            {% for i in cat %}
+            <option value="{{ i["category_id"] }}">{{ i["category_name"] }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input type="submit" name="button" id="button" class="btn btn-success" value="update" required/>
+      </div></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}

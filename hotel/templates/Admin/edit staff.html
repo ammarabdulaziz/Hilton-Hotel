@@ -1,0 +1,65 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+<form enctype="multipart/form-data" id="form1" name="form1" method="post" action="/edit_staff">
+  <table class="table table-hover">
+    <tr>
+      <td>Staff Name</td>
+      <td>
+      <input type="text" name="textfield" class="form-control" value="{{ values['staff_name'] }}" id="textfield" required /></td>
+    </tr>
+      <tr>
+      <td>Add Photo</td>
+      <td>
+      <input type="file" name="pic" class="form-control" id="fileField" /></td>
+    </tr>
+    <tr>
+      <td>DOB</td>
+      <td><input type="date" class="form-control" value={{ values["dob"] }} name="date"required/></td>
+    </tr>
+    <tr>
+      <td> Gender</td>
+      <td><input type="radio" name="radio"  {% if values['gender']=="male" %}  id="radio" value="male" checked="checked" {% endif %}/>
+      Male<br />
+        <input type="radio" name="radio" id="radio2" value="female" {% if values['gender']=="female" %} checked="checked" {% endif %} > Female</td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>
+      <input type="text" name="textfield2" class="form-control" value={{ values["email"] }} id="textfield2" required/></td>
+    </tr>
+    <tr>
+      <td>Phone No.</td>
+      <td>
+      <input type="text" name="textfield3" class="form-control" value={{ values["phone"] }} id="textfield3" required/></td>
+    </tr>
+    <tr>
+      <td>Department</td>
+      <td>
+        <select name="select4" class="form-control" id="select4">
+
+            <option value="manager"  {% if values['type']=="manager" %}  selected="selected" {% endif %} >Manager</option>
+            <option value="waitor"  {% if values['type']=="waitor" %}  selected="selected" {% endif %} >Waitor</option>
+            <option value="transport"  {% if values['type']=="transport" %}  selected="selected" {% endif %} >Transport</option>
+      </select></td>
+        <tr>
+        <td>Place</td>
+        <td><input type="text" name="textfield4" class="form-control" value={{ values["place"] }} id="textfield4"required /></td>
+    </tr>
+    </tr>
+    <tr>
+        <td>Post</td>
+        <td><input type="text" name="textfield5" class="form-control" value={{ values["post"] }} id="textfield4"required /></td>
+    </tr>
+    </tr>
+    <tr>
+        <td>Pin</td>
+        <td><input type="text" name="textfield6" class="form-control" value={{ values["pin"] }} id="textfield4"required /></td>
+    </tr>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" name="button" id="button" class="btn btn-success" value="Add Staff" /></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="/add_services">
+  <table class="table table-hover">
+    <tr>
+      <td>Name</td>
+      <td>
+      <input type="text" name="textfield" class="form-control" id="textfield" required/></td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>
+      <input type="text" name="textfield2" class="form-control" id="textfield2" required/></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div align="center">
+          <input type="submit" name="button" class="btn btn-success" id="button" value="Add" required/>
+        </div>
+      </td>
+    </tr>
+  </table>
+</form>
+{% endblock %}

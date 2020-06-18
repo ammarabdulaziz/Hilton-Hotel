@@ -1,0 +1,55 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+<form  method="post" enctype="multipart/form-data" name="form1" id="form1" action="/add_foods" onsubmit="return valid()">
+  <table class="table table-hover">
+    <tr>
+      <td>Food Name</td>
+      <td>
+      <input type="text" name="textfield" id="textfield" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <td>Price</td>
+      <td>
+      <input type="text" name="textfield2" class="form-control" id="textfield2"  required/></td>
+    </tr>
+    <tr>
+      <td>Add Photo</td>
+      <td>
+      <input type="file" name="pic" class="form-control" id="fileField" required/></td>
+    </tr>
+  <tr>
+      <td>Description</td>
+      <td>
+      <textarea name="des" class="form-control"></textarea></td>
+    </tr>
+    <tr>
+      <td>Category</td>
+      <td>
+        <select name="select" class="form-control" id="select">
+        <option value="select">select</option>
+            {% for i in data %}
+            <option value="{{ i['category_id'] }}">{{ i['category_name'] }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input type="submit" name="button" id="button" value="Add" class="btn btn-success"/>
+      </div></td>
+    </tr>
+  </table>
+</form>
+
+<script type="text/javascript" language="JavaScript">
+    function  valid() {
+        var flag=true;
+        var name=document.getElementById("select").value;
+        if(name=='select'){
+            alert("lll");
+            flag=false;
+        }
+      return flag;
+
+    }
+</script>
+{% endblock %}

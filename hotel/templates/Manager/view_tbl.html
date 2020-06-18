@@ -1,0 +1,47 @@
+{% extends "Manager/dashboard.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+<div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header card-header-primary">
+                    <h4 class="card-title "><b>Food Orders</b></h4>
+{#                  <p class="card-category"> Here is a subtitle for this table</p>#}
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table">
+    <tr>
+        <td><b>Sl No.</b></td>
+        <td><b>User Name</b></td>
+        <td><b>Phonet</b></td>
+        <td><b>Date</b></td>
+        <td><b>Time</b></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+      {% for i in values %}
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td>{{ i["customer_name"] }}</td>
+      <td>{{ i["phone"] }}</td>
+      <td>{{ i["date"] }}</td>
+      <td>{{ i["time"] }}</td>
+
+
+      <td><a href="/mng_accept22/{{ i["table_book_id"] }}/{{ i["table_hotel_id"] }}" class="btn btn-success">Finish</a></td>
+    </tr>
+            {% endfor %}
+  </table>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+</form>
+{% endblock %}

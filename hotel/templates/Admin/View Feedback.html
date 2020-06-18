@@ -1,0 +1,23 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table class="table table-striped">
+    <tr>
+      <td><b>No.</b></td>
+      <td><b>Customer Nmae</b></td>
+      <td><b>Feedback</b></td>
+      <td><b>Date</b></td>
+
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['customer_name'] }}</td>
+      <td>{{ i['feedbacks'] }}&nbsp;</td>
+      <td>{{ i['date'] }}&nbsp;</td>
+
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+{% endblock %}

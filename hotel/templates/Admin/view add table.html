@@ -1,0 +1,26 @@
+{% extends "Admin/index2.html" %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table class="table table-striped">
+    <tr>
+      <td><b>No.</b></td>
+      <td><b>Table Number</b></td>
+      <td><b>Structure</b></td>
+      <td><b>Price</b></td>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+        {% for i in values %}
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td>{{ i["table_num"] }}</td>
+      <td><img src="{{ i["picture"] }}" height="100px" width="100px" alt=""/></td>
+      <td>{{ i["charge"] }}</td>
+      <td><a href="/adm_edit_table/{{ i["table_hotel_id"] }}" class="btn btn-success">edit</a></td>
+      <td><a href="/adm_view_tables_delete/{{ i["table_hotel_id"] }}" class="btn btn-danger">delete</a></td>
+    </tr>
+                  {% endfor %}
+
+  </table>
+</form>
+
+{% endblock %}
